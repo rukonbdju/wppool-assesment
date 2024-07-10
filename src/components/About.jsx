@@ -1,3 +1,4 @@
+import photo from "../assets/photos/wppool.png"
 const About =()=>{
     return(
         <div className="grid grid-cols-2 items-center justify-between w-4/5 mx-auto mt-36 bg-white rounded-[12px]">
@@ -13,7 +14,7 @@ const About =()=>{
             </section>
             <section>
                 <figure>
-                    <img className="w-full" src="../src/assets/photos/wppool.png" alt=""/>
+                    <img className="w-full" src={photo} alt=""/>
                 </figure>
             </section>
         </div>

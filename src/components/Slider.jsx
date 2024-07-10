@@ -1,3 +1,6 @@
+import poster1 from "../assets/photos/poster-1.png"
+import poster2 from "../assets/photos/poster-2.png"
+import poster3 from "../assets/photos/poster-3.png"
 const Slider = () => {
     return (
         <section className="bg-[url(../src/assets/photos/vector-bg.png)] bg-right bg-no-repeat w-4/5 mx-auto mt-24">
@@ -17,9 +20,9 @@ const Slider = () => {
             </header>
             <div className="h-[326px] my-5 relative">
                 <div className="absolute top-0 flex flex-row  gap-4 ">
-                        <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-1.png" alt="" />
-                        <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-2.png" alt="" />
-                        <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-3.png" alt="" />
+                        <img className="h-[326px] w-[580px" src={poster1} alt="" />
+                        <img className="h-[326px] w-[580px" src={poster2} alt="" />
+                        <img className="h-[326px] w-[580px" src={poster3} alt="" />
                 </div>
             </div>
 

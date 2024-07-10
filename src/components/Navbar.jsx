@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import Menu from "./Menu";
+import blackLogo from "../assets/logos/logo-black.png"
+import whiteLogo from "../assets/logos/logo-white.png"
 
 const Navbar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -31,7 +33,7 @@ const Navbar = () => {
                 
                     <section>
                         <figure>
-                            <img src="../src/assets/logos/logo-black.png" alt="wppool-logo" />
+                            <img src={blackLogo} alt="wppool-logo" />
                         </figure>
                     </section>
                     <section>
@@ -75,7 +77,7 @@ const Navbar = () => {
                     {isOpen &&<Menu setIsOpen={setIsOpen}></Menu>}
                         <section>
                             <figure>
-                                <img src="../src/assets/logos/logo-white.png" alt="wppool-logo" />
+                                <img src={whiteLogo} alt="wppool-logo" />
                             </figure>
                         </section>
                         <section>

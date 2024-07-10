@@ -1,3 +1,5 @@
+import person from "../assets/photos/people1.png"
+import person2 from "../assets/photos/people 2.png"
 const Stories =()=>{
     return(
         <section className="mt-24 w-4/5 mx-auto">
@@ -11,7 +13,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person2} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
@@ -26,7 +28,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
@@ -41,7 +43,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
@@ -56,7 +58,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person2} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
@@ -71,7 +73,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
@@ -86,7 +88,7 @@ const Stories =()=>{
                     <div className="relative h-[220px] w-[380px] bg-white rounded-[12px]">
                         <figure className="absolute left-[10px] -top-[60px]">
                             <img className="rounded-[4px]" height="120px" width="120px"
-                                src="../src/assets/photos/people 2.png" alt=""/>
+                                src={person2} alt=""/>
                         </figure>
                         <div className="absolute left-[10px] bottom-[10px]">
                             <h3 className="text-[#2042B6] text-[14px]">Hasan Mahmud</h3>
