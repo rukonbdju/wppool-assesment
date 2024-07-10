@@ -15,20 +15,16 @@ const Slider = () => {
                 <p className="text-[#191618] text-[16px] mt-2">Click through the slides or download the report to view
                     natively on your device.</p>
             </header>
-            <div className="h-[326px] my-5 w-full relative">
-                <div className="absolute top-0 flex flex-row w-screen gap-4">
+            <div className="h-[326px] my-5 relative">
+                <div className="absolute top-0 flex flex-row  gap-4 ">
                         <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-1.png" alt="" />
                         <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-2.png" alt="" />
                         <img className="h-[326px] w-[580px" src="../src//assets//photos/poster-3.png" alt="" />
                 </div>
             </div>
 
-
-
-
-
             <section className="flex flex-rows items-center justify-between">
-                <div>
+                <div className="inline-flex gap-2">
                     <button id="prevButton" className="p-4 bg-white rounded-[124px] drop-shadow">
                         <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
